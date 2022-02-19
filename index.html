@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>ziga</title>
+</head>
+
+<body>
+    <section class="page">
+        <header class="header">
+            <div class="header__logo">
+                <picture class="logo">
+                    <source srcset="images/logoMin.svg" media="(max-width: 460px)">
+                    <source srcset="images/logoMedium.svg" media="(max-width: 1024px)">
+                    <img src="images/logoMax.svg" class="logo__item" alt="logo">
+                </picture>
+            </div>
+            <div class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Портфолио</a></li>
+                    <li class="nav__item"><a href="#example" class="nav__link">Виды работ</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">О фотостудии</a></li>
+                    <li class="nav__item"><a href="#price" class="nav__link">Услуги и цены</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="header__contacts">
+                <button class="header__call">ОБРАТНЫЙ ЗВОНОК</button>
+                <a class="header__phone" href="tel:80969444890"></a>
+                <a class="header__tell-link" href="tel:80969444890">8(096) 94 44 890</a>
+            </div>
+            <div class="header__burger">
+                <button class="burger">&#9776</button>
+            </div>
+        </header>
+        <section class="baner">
+            <div class="baner__video">
+                <video class="video" poster="https://i.gifer.com/7plQ.gif" autoplay="true" muted="true" loop="true">
+                    <source src="images/videoMin.webm" type="video/webm">
+                    <source src="images/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="baner__video-mask"></div>
+            <article class="baner__article">
+                <h1 class="baner__title">Профессиональная <mark>фотосессия в студии</mark></h1>
+                <h5 class="baner__subtitle">Наша фотостудия позволит<br> исполнить ваши мечты</h5>
+                <p class="baner__text">Фотографии стали неотъемлемой частью нашей жизни. Это теперь не просто памятные
+                    снимки в альбомах, ныне фото становиться способом понравиться окружающим, получить восхищение,
+                    заявить о себе всему миру.
+                    Выбор правильной фотостудии занимает далеко не последнее место в получение фотографий. И мы с
+                    точностью заявляем, что нашей фотостудией вы останетесь довольны
+                    и еще не раз захотите возвращаться к нам. </p>
+                <button class="baner__btn">Получить консультацию</button>
+            </article>
+        </section>
+        <section class="popup">
+            <div class="popup__wrapper">
+                <div class="popup__image">
+                    <picture>
+                        <source srcset="images/formImage.webp" type="image/webp">
+                        <source srcset="images/formImage.jpg" type="image/jpeg">
+                        <img src="images/formImage.jpg" alt="form">
+                    </picture>
+                </div>
+                <div class="popup__form">
+                    <!-- action="#" method="post" -->
+                    <form>
+                        <h2 class="popup__title">Форма обратной связи</h2>
+                        <p>Имя</p>
+                        <input type="text" class="form__name" placeholder="Введите ваше имя">
+                        <p>E-mail</p>
+                        <input type="email" class="form__email" placeholder="Введите ваш E-mail">
+                        <p>Телефон</p>
+                        <input type="number" class="form__phoneNumber" placeholder="Введите ваше Телефон"><br>
+                        <button class="form__btn" type="submit">Отправить</button>
+                        <p class="license">Нажимая кнопку «Отправить», вы даете согласие на обработку<br> персональных
+                            данных и соглашаетесь с<a href="#">политикой конфиденциальности</a> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="portfolio__title-wrapper">
+                <h2 class="portfolio__title">Наши работы</h2>
+            </div>
+            <div class="portfolio__slider">
+                <div class="slider-card slider-card--active">
+                    <picture>
+                        <source srcset="images/slide1.webp" type="image/webp">
+                        <source srcset="images/slide1.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide1.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card ">
+                    <picture>
+                        <source srcset="images/slide2.webp" type="image/webp">
+                        <source srcset="images/slide2.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide2.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide3.webp" type="image/webp">
+                        <source srcset="images/slide3.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide3.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide1.webp" type="image/webp">
+                        <source srcset="images/slide1.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide1.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide2.webp" type="image/webp">
+                        <source srcset="images/slide2.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide2.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide3.webp" type="image/webp">
+                        <source srcset="images/slide3.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide3.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide1.webp" type="image/webp">
+                        <source srcset="images/slide1.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide1.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide2.webp" type="image/webp">
+                        <source srcset="images/slide2.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide2.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide3.webp" type="image/webp">
+                        <source srcset="images/slide3.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide3.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide1.webp" type="image/webp">
+                        <source srcset="images/slide1.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide1.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide2.webp" type="image/webp">
+                        <source srcset="images/slide2.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide2.png" alt="slide">
+                    </picture>
+                </div>
+                <div class="slider-card">
+                    <picture>
+                        <source srcset="images/slide3.webp" type="image/webp">
+                        <source srcset="images/slide3.png" type="image/png">
+                        <img class="slider-card__image" src="images/slide3.png" alt="slide">
+                    </picture>
+                </div>
+            </div>
+            <div class="portfolio__btns">
+                <button class="portfolio__btn portfolio__btn--prev">&#10094</button>
+                <button class="portfolio__btn portfolio__btn--next">&#10095</button>
+            </div>
+        </section>
+    </section>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
